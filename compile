@@ -1,0 +1,6 @@
+#!/bin/sh
+
+g++ 4th_order_system_calc.cpp -o 4th_order_system_calc -lmpfr -lgmp
+g++ 4th_order_system_poisson.cpp -o 4th_order_system_poisson -lmpfr -lgmp
+g++ 4th_order_system_image.cpp -o 4th_order_system_image -lmpfr -lgmp
+g++ lyapunov_exp.cpp -o lyapunov_exp -lmpfr -lgmp
